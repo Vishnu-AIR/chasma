@@ -1,7 +1,7 @@
 require("dotenv").config()
 const mongoose = require('mongoose');
 
-const db_url = process.env.DB_URI || "mongodb+srv://1:klhg9YoJdPYPJl9O@cluster0.msm6jkh.mongodb.net/"
+const db_url = process.env.DB_URI || "mongodb://localhost:27017/"
 const db_name = process.env.DB_NAME || "chasma"
 
 
